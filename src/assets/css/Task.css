@@ -1,0 +1,21 @@
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  
+.task {
+    list-style: none;
+}
+
+.taskRemove{
+    text-decoration: line-through;
+}
+
+.taskAdd{
+    text-decoration: none;
+}
